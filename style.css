@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 105px;
+    margin-top: 78px;
+}
+
+.plans{
+    font-weight: 700;
+    font-size: 16px;
+    color: #74C69D;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 35px 0 0 0;
+    line-height: 20px;
+}
+
+.services {
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.underserv {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin: 16px 0 0 0;
+}
+
+.card {
+    width: 339px;
+    height: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin: 46px 0 0 0;
+    text-align: center;
+}
+
+.money {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #21252980;
+    margin: 9.5px 0 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px 15px;
+}
+
+.dollars {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 25px;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+.lorem {
+    font-size: 15px;
+    line-height: 19px;
+    color: #21252980;
+    margin: 10px 0 0 0;
+    height: 57px;
+    width: 279px;
+    text-align: center;
+}
+
+.list {
+    margin: 52px 0 0 0;
+}
+
+.ticks {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin: 0 0 11px 0;
+    padding: 0 39px 0 11px;
+    text-align: center;
+}
+
+ul {
+    list-style-image: url(tick.png);
+    line-height: 24px;
+
+}
+
+.button {
+    height: 48px;
+    width: 170px;
+    border-radius: 5px;
+    background: rgb(23, 23, 23);
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 45px 0 0 0;
+}
+@media(max-width: 568px){
+    .cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 105px 0;
+    }
+}
+@media(max-width: 768px){
+    .cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 105px 0;
+    }
+}
+@media(max-width: 1024px){
+    .cards {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 105px 105px;
+    }
+}
+@media(max-width: 1200px){
+    .cards {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 105px 105px;
+    }
+}
