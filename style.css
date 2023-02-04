@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 0 105px;
+    gap: 0 85px;
     margin-top: 78px;
 }
 
@@ -126,12 +126,18 @@ ul {
     font-size: 20px;
     margin: 45px 0 0 0;
 }
-@media(max-width: 568px){
+@media(max-width: 1200px){
     .cards {
-        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        gap: 105px 0;
+        gap: 95px 95px;
+    }
+}
+@media(max-width: 1024px){
+    .cards {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 80px 80px;
     }
 }
 @media(max-width: 768px){
@@ -139,20 +145,16 @@ ul {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        gap: 105px 0;
+        gap: 85px 0;
     }
 }
-@media(max-width: 1024px){
+@media(max-width: 568px){
     .cards {
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        gap: 105px 105px;
+        gap: 85px 0;
     }
 }
-@media(max-width: 1200px){
-    .cards {
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 105px 105px;
-    }
-}
+
+
